@@ -1,0 +1,129 @@
+.CheckOutPage{
+    max-width: 1540px;
+    margin:auto;
+    padding: 20px 0px ;
+}
+.notes{
+    padding: 10px 0px;
+}
+.notes h1 ,h2 {
+    font-size: 14px;
+    padding: 3px 10px;
+}
+.notes h2{
+    font-weight: 400;
+}
+.notes span{
+    color: #b22222;
+}
+.shopping_carts{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 15px 0px;
+}
+.shooping_cart_left {
+    margin: 20px;
+}
+.shooping_cart_left h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 6px 0px;
+}
+.shooping_cart_left a{
+    color: #007185;
+}
+.shooping_cart_left a:hover , .free_delivery_text a:hover {
+    color: #b22222;
+    cursor: pointer;
+}
+.hr_line2{
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.233);
+    text-align: end;
+}
+.shooping_cart_right{
+    width: 28vw;
+}
+.shooping_banner img{
+    width: 100%;
+}
+.Subtotal_box{
+    margin:10px auto;
+}
+.total_info_box{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 12px 0px;
+
+}
+.total_info_box h3{
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.total_info_box span{
+    font-weight: 600;
+}
+.total_info_box p input{
+    margin: 10px 10px 0px 0px;
+}
+
+.free_delivery_text p{
+    margin: 10px 0px;
+    padding: 0px 10px;
+    font-size: 12px;
+
+}
+.free_delivery_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #067D62;
+}
+.free_delivery_text a{
+    text-decoration: none;
+    color: #067D62;
+
+}
+
+.btn_proceed{
+    padding: 6px 0px;
+    width: 100%;
+    border: 1px solid;
+    background: #FFD814;
+    border-color: #FCD200;
+    margin:15px 0px;
+    color: #111;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.btn_proceed:hover{
+    background: #F7CA00;
+    border-color: #F2C200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
+.EMI_btn{
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid rgba(124, 124, 124, 0.438);
+    cursor: pointer;
+}
+.EMI_btn summary{
+    padding: 10px 15px;
+}
+.EMI_btn p{
+    line-height: 20px;
+    padding: 8px 15px;
+
+}
+.scrollBar{
+    width: 67vw;
+    height: 600px;
+    background-color: #fff;
+    Overflow-y:scroll; 
+    margin-left: 13px;
+}

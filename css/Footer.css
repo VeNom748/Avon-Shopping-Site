@@ -1,0 +1,108 @@
+.Footer{
+    width: 100%;
+    background-color: #232F3E;
+}
+.footer_row_first{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding: 50px 0px 35px;
+}
+.footer_column li{
+    list-style: none;
+    color: #DDD;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+.footer_column li:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    text-decoration-color: #DDD;
+}
+.footer_column ul{
+    padding: 0px;
+}
+.footer_column strong{
+    color: #fff;
+    font-size:18px;
+    padding: 10px 0px;
+
+}
+.hr_line{
+    border-top: 1px solid rgba(221, 221, 221, 0.226);
+    
+}
+.Language_button{
+    width: 133px;
+    height: 41px;
+    border: 1px solid #848688;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #DDD;
+}
+.footer_row_second{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    align-items: center;
+    justify-content:center;
+    height: 80px;
+}
+.footer_row_second img{
+    width: 80px;
+    margin: 63px 20px 0px;
+}
+.up_down{
+    display: flex;
+    flex-direction: column;
+}
+.cuntries{
+    display: flex;
+    flex-wrap: wrap;
+    color: #848688;
+    list-style: none;
+    justify-content: center;
+}
+.cuntries li{
+    margin: 5px 10px;
+}
+.footer_end ul{
+    display: flex;
+    color:#fff;
+    list-style: none;
+    font-size: 14px;
+    padding: 20px 0px;
+}
+.footer_end li{
+    margin: 0px 10px;
+}
+.footer_end{
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+}
+.back_to_top_btn{
+    background-color: #37475A;
+    text-align: center;
+    padding: 20px 0px;
+}
+.back_to_top_btn:hover{
+    background-color: #445468;
+}
+.back_to_top_btn a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer_logo{
+    background-position: -10px -90px;
+    width: 76px;
+    height: 23px;
+    margin: auto 15px;
+    background-image: url(../images/Logo.png);
+    background-repeat: repeat-x;
+}

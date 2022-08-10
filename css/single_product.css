@@ -1,0 +1,106 @@
+.single_product_page_container {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1500px;
+  background-color: #fff;
+  display: flex;
+  margin: 3% auto;
+  min-height: 80vh;
+}
+.single_product_box1 {
+  width: 40%;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.single_product_box2 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+.single_product_box3 {
+    width: 16%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 14px 18px;
+    border:1px #D5D9D9 solid;
+    height: fit-content;
+
+  /* border: 1px solid red; */
+}
+.single_product_box1 img {
+  width: 70%;
+}
+.single_product_box2 h3 {
+  font-size: 29px !important;
+  line-height: 32px !important;
+  margin-top: 10px;
+  font-weight: 500;
+
+}
+.single_product_box2 a , .single_product_box3 a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #007185;
+
+}
+.single_product_box2 img{
+    width: 145px;
+    margin-bottom: 10px;
+
+}
+.single_product_box2 p , .single_product_box3 p{
+    font-size: 15px;
+    padding: 10px 0px;
+
+}
+.single_product_box2 p span , .single_product_box3 span{
+    font-size: 20px;
+    color: #B12704;
+
+}
+.single_product_box2 strong{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.purches_buttons{
+    width: 300px;
+}
+.single_product_box3 a svg{
+  width: 12px;
+  padding-right: 3px;
+}
+.single_product_box3 h5 {
+  color:#565959;
+  font-weight: 400;
+  margin: 10px 0px;
+  line-height: 20px;
+}
+.single_product_addtocart_btn , .single_product_BuyNow_btn{
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  background:#F7CA00 ;
+  border-color: #F2C200;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  border-style: solid;
+  border-width: 1px;
+  text-align:center;
+  vertical-align:center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  font-weight:500;
+  cursor: pointer;
+
+}
+.single_product_BuyNow_btn{
+  background: #FFA41C;
+    border-color: #FF8F00;
+}

@@ -1,0 +1,11 @@
+.scroll_bar_1 {
+    padding: 10px;
+    width: 67vw;
+    /* height: fit-content; */
+    background-color: #fff;
+    min-height: 600px !important;
+}
+.checkout_product_card {
+    height: fit-content !important;
+
+}

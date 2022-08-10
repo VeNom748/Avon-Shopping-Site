@@ -1,0 +1,130 @@
+.w_80{
+    width: 70%;
+    margin:auto;
+    padding: 2% 0px ;
+}
+.pheading{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px 0px;
+    margin: 5% 0px 5px;
+}
+.cardInfo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.card_input{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #756b6b;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+    outline: 0;
+
+}
+
+.card_input:focus{
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.card_no{
+    width: 100%;
+}
+.card_valid{
+    width: 30%;
+}
+.card_cvv{
+    width: 15%;
+    font-style: italic;
+    margin: 0px 5px;
+}
+.opheading{
+    font-size: 40px;
+    
+}
+.scroll_bar{
+    padding:10px;
+    width: 67vw;
+    height: 600px;
+    background-color: #fff;
+}
+.checkout_product_card{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+    height: 60px;
+    position: relative;
+}
+.checkout_product_card input{
+    width: 17px;
+    height: 15px;
+}
+.cart_product_img{
+    width: 2vw;
+    height: 165px;
+    position: relative;
+}
+.Subtotal_box_pay{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 67vw;
+    border-top: 1px solid;
+    border-color: rgba(0, 0, 0, 0.233);
+    text-align: end;
+}
+
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+.payment_section{
+    display: flex;
+}
